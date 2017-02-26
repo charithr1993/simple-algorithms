@@ -7,3 +7,7 @@ for(int index =0; index<picture.length; index++){
 	picture[index] = name;
 }
 
+foreach(string item in picture){
+	Console.writeLine(item);
+	Console.writeLine("\n");
+}
