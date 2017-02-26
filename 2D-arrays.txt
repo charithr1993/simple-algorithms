@@ -1,0 +1,9 @@
+
+string[] picture = new string[5];
+
+for(int index =0; index<picture.length; index++){
+	Console.writeLine("Enter Your Name");
+	string name = Console.readLine();
+	picture[index] = name;
+}
+
